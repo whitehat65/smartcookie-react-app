@@ -56,7 +56,7 @@ const ContactSection = () => {
 };
 
 const ContactItem = ({ icon, title, children }) => (
-  <div className="flex items-start gap-4">
+  <div className="flex items-start gap-4" id="contact">
     <div className="text-blue-600">{icon}</div>
     <div>
       <h5 className="font-semibold">{title}</h5>

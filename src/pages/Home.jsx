@@ -8,6 +8,7 @@ import AppInfoSection from "./AppInfoSection";
 import SponsorsSection from "../component/SponsorsSection";
 import BlogCarousel from "../component/BlogCarousel";
 import ContactSection from "./ContactSection";
+import Footer from "./Footer";
 function Home() {
   return (
     <>
@@ -41,6 +42,9 @@ function Home() {
       </div>
       <div className="my-10">
         <ContactSection />
+      </div>
+      <div className="my-10">
+        <Footer />
       </div>
     </>
   );

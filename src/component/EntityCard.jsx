@@ -16,7 +16,7 @@ const EntityCard = ({ entity }) => {
   if (entity.type === "link") {
     return (
       <div className="flex justify-center">
-        <a href={entity.href} target="_blank" rel="noreferrer" className="no-underline">
+        <a href={entity.href} target="_self" rel="noreferrer" className="no-underline">
           <button id="entity" value={entity.value} className={buttonClasses} style={imgStyles}>
             <img src={entity.imgSrc} alt={entity.label} className={fixedImgClasses} />
             <h4 className="mt-2 text-black text-base font-semibold">{entity.label}</h4>

@@ -5,14 +5,14 @@ const entities = [
   [
     {
       type: "link",
-      href: "https://smartcookie.in/Clogin/login/student",
+      href: "/login?role=student",
       value: "student",
       imgSrc: "/assets/images/student1.png",
       label: "Student",
     },
     {
       type: "link",
-      href: "https://smartcookie.in/Clogin/login/teacher",
+      href: "/login?role=teacher",
       value: "teacher",
       imgSrc: "/assets/images/teacher_icon1.png",
       label: "Teacher",
@@ -37,14 +37,14 @@ const entities = [
   [
     {
       type: "link",
-      href: "https://smartcookie.in/Clogin/login/employee",
+      href: "/login?role=employee",
       value: "employee",
       imgSrc: "/assets/images/employee_icon.png",
       label: "Employee",
     },
     {
       type: "link",
-      href: "https://smartcookie.in/Clogin/login/manager",
+      href: "/login?role=manager",
       value: "manager",
       imgSrc: "/assets/images/maneger_icon.png",
       label: "Manager",
@@ -102,7 +102,7 @@ const entities = [
   [
     {
       type: "link",
-      href: "https://smartcookie.in/Clogin/login/sponsor",
+      href: "/login?role=sponsor",
       value: "sponsor",
       imgSrc: "/assets/images/sponser_icon.png",
       label: "Sponsors",
@@ -116,7 +116,7 @@ const entities = [
     },
     {
       type: "link",
-      href: "https://smartcookie.in/Clogin/login/salesperson",
+      href: "/login?role=salesperson",
       value: "salesperson",
       imgSrc: "/assets/images/salesperson_icon1.png",
       label: "Sales Person",
@@ -128,7 +128,7 @@ const EntitiesSection = () => {
   return (
     <section
       className="client-area no-padding wow fadeIn py-8"
-      id="team"
+      id="login-as"
     >
       <div className="container mx-auto px-4">
         <div className="mb-8 text-center">
